@@ -1,9 +1,9 @@
 const db = require("./db");
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 const { SECRET_KEY, authenticateToken } = require("./auth");
 const express = require("express");
 const cors = require("cors");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
 
 const app = express();
 const PORT = 3000;
