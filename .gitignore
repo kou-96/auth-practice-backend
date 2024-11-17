@@ -1,3 +1,2 @@
-db.js
-auth.js
+.env.*
 /node_modules
