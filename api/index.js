@@ -141,5 +141,5 @@ app.delete("/delete", async (req, res) => {
 
 app.listen(PORT, () => {
   console;
-  console.log(`サーバー${PORT}を起動しました。,env: ${process.env.NODE_ENV}`);
+  console.log(`サーバー${PORT}を起動しました。.env: ${process.env.NODE_ENV}`);
 });
